@@ -1,6 +1,7 @@
 
 
 
+
 var freqA = 174;
 var freqS = 196;
 var freqD = 220;
@@ -61,6 +62,7 @@ function draw() {
 textAlign(CENTER);
   textFont('Georgia',[25])
 text('Click Here to Make Art & Music!', width / 2,60);
+noStroke();
 rect(140,80,140,130);
 noStroke();
 rect(140,220,140,130);
