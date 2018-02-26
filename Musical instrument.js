@@ -1,5 +1,6 @@
 
 
+
 var freqA = 174;
 var freqS = 196;
 var freqD = 220;
@@ -59,12 +60,15 @@ function setup() {
 function draw() {  
 textAlign(CENTER);
   textFont('Georgia',[25])
-text('Click Here to Make Music!', width / 2,60);
-//rect(140,35, 315,40);
+text('Click Here to Make Art & Music!', width / 2,60);
 rect(140,80,140,130);
+noStroke();
 rect(140,220,140,130);
+noStroke();
 rect(310,80,140,130);
+noStroke();
 rect(310,220,140,130);
+noStroke();
 
 strokeWeight(2);
   stroke(255, 204, 0);
